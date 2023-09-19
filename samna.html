@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        header {
+            background-color: cadetblue;
+            height: 100px;
+            display: flex;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        aside {
+            width: 20%;
+            background-color:cadetblue;
+            height: 600px;
+        }
+
+        article {
+            width: 80%;
+            background-color: cadetblue;
+
+        }
+
+        footer {
+            background-color: black;
+            padding: 30px;
+        }
+
+        div {
+            display: flex;
+        }
+
+        .main {
+            display: flex;
+            background-color: bisque;
+
+        }
+
+        .news {
+            background-color: red;
+            width: 100px;
+            /* font-style: bold; */
+            color: gold;
+            padding-top: 22px;
+            padding-left: 2px;
+            font-size: 30px;
+            border: 1px solid silver;
+        }
+
+        .marrq {
+            height: 70px;
+            background-color: black;
+            border: 2px solid slategrey;
+        }
+
+        .img {
+            width: 50%;
+            background-color: white;
+        }
+
+        .formm {
+            background-color: white;
+            width: 50%;
+            height: 453px;
+            display: block;
+        }
+
+        .b1 {
+            background-color: white;
+            height: 225px;
+            width: 301px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        .b2 {
+            background-color: white;
+            height: 225px;
+            width: 293px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        .b3 {
+            background-color: white;
+            height: 225px;
+            width: 293px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        .bb1 {
+            background-color: white;
+            height: 225px;
+            width: 301px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        .bb2 {
+            background-color: white;
+            height: 225px;
+            width: 293px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        .bb3 {
+            background-color: white;
+            height: 225px;
+            width: 293px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        .lael {
+            font-size: 50px;
+            margin-top: 20PX;
+            padding-left: 30px;  
+        } 
+
+        .ul1 {
+            display: flex;
+            padding: 29px;
+            margin-left: 40px;
+        }
+
+        .ul1 .lii li {
+            border: 1px solid black;
+            height: 30px;
+            list-style-type: none;
+            margin-left: 70px;
+            font-size: 20px;
+            padding-top: 10px;
+            color: black;
+            border-radius: 10%;
+            background: linear-gradient(700deg, #c71919 10%, #01b8ea 90%);
+        }
+
+        .b1-- {
+            margin-left: 100px;
+            padding-bottom: 20px;
+        }
+
+        .inputf {
+            margin-left: 25px;
+            width: 240px;
+        }
+
+        .submitf {
+            margin-left: 90px;
+            height: 40px;
+            border-radius: 8px;
+            width: 120px;
+            background-color: black;
+            color: gold;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        }
+
+        .b2- {}
+
+        .b3-- {}
+
+        .b3- {
+            margin-top: 50px;
+        }
+
+        .b3-- {
+            margin-top: 60px;
+        }
+
+        .bb1- {
+            margin-left: 10px;
+            margin-top: 50px;
+        }
+
+        .bb2- {
+            margin-left: 30px;
+            margin-top: 60px;
+        }
+
+        .bb3- {
+            margin-left: 17px;
+            margin-top: 60px;
+        }
+
+        .bb2-- {
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+
+        .bb3-- {
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        .ul2 {
+            padding: 20px;
+            margin-left: 20px;
+        }
+
+        .ul2 li {
+            border: 1px solid black;
+            font-size: 20px;
+            list-style-type: none;
+            height: 35px;
+            width: 150px;
+            margin-top: 32px;
+            border-radius: 10%;
+            padding-top: 10px;
+            text-align: center;
+            background: linear-gradient(700deg, #1c31bb 10%, #a1a30d 90%);
+        }
+
+        .join {
+            font-size: 40px;
+            color: gold;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .trading {
+            background-color: white;
+            display: block;
+        }
+
+        .vid {
+
+            height: 400px;
+            background-color: white;
+            display: block;
+        }
+
+        .v1 {
+            height: 100px;
+            width: px;
+            display: block;
+            padding-right: 4px;
+        }
+
+        .v2 {
+            display: block;
+            padding-right: 4px;
+        }
+
+        .v3 {
+            display: block;
+            padding-right: 4px;
+
+        }
+
+        .v4 {
+            display: block;
+            padding-right: 4px;
+
+        }
+
+
+        .layer3 {
+            display: flex;
+            background-color: white;
+
+
+        }
+
+        .adve {
+
+            width: 50%;
+            height: 300px;
+
+
+        }
+
+        .adve-side {
+
+            width: 50%;
+            height: 300px;
+            display: block;
+
+        }
+
+        .img1 {
+            display: block;
+            margin-left: 20px;
+            width: 245px;
+        }
+
+        .img2 {
+            display: block;
+            margin-left: 20px;
+            width: 245px;
+        }
+
+        .layer4 {
+            height: 390px;
+            background-color: white;
+            display: flex;
+        }
+
+        .layer4-1 {
+            width: 27%;
+            border: 1px solid black;
+            background-color: dimgray;
+            height: 350px;
+            display: block;
+            box-shadow:hsl(61, 97%, 49%) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+
+        .layer4-2 {
+            width: 40%;
+            border: 1px solid black;
+            margin-left: 15px;
+            background-color: dimgray;
+            height: 350px;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+
+        }
+
+        table {
+            height: 350px;
+            width: 500px;
+            
+        }
+
+        th {
+            height: 5px;
+        }
+
+        .layer4-3 {
+            width: 27%;
+            border: 1px solid black;
+            margin-left: 15px;
+            background-color: dimgray;
+            height: 350px;
+            display: block;
+            box-shadow: hsl(61, 97%, 49%) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+
+        .maha-fast {
+            font-size: 30px;
+        }
+
+        .super {
+            font-size: 30px;
+        }
+        .layer5{
+            background-color: white;
+            height: 500px;
+            padding-top: 20px;
+        }
+
+        .layer5-1 {
+            width: 50%;
+            
+            height: 450px;
+            
+        }
+
+        .layer5-2 {
+            width: 50%;
+            margin-left: 30px;
+            display: block;
+        }
+        .zun{
+            width: 300px;
+        }
+        .layer6{
+            
+            height: 500px;
+            background-color: white;
+        }
+        .layer6-1{
+            width: 45%;
+            
+            background-color: white;
+            
+            
+        }
+        .layer6-2{
+            width: 45%;
+            
+            margin-left: 50px;
+            background-color: white;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="zun">
+                <label class="lael" style="color: white;">SAMNA</lable>
+            </div>
+            <ul class="ul1">
+                <div class="lii">
+                    <li><a href="/html/symentric-elements/lokmat.html">&nbsp; LOKMAT &nbsp;</a></li>
+                    <li><a href="/html/symentric-elements/samna.html">&nbsp; SAMNA &nbsp;</a></li>
+                    <li><a href="/html/symentric-elements/sakal.html">&nbsp; SAKAL &nbsp;</a></li>
+                    <li><a href="/html/symentric-elements/loksata.html">&nbsp; LOKSATA &nbsp;</a></li>
+                    <li><a href="/html/symentric-elements/mhtimes.html">&nbsp; MH TIMES &nbsp;</a></li>
+                    <li><a href="/html/symentric-elements/zunjar.html">&nbsp; ZUNJAR NETA &nbsp;</a></li>
+                </div>
+            </ul>
+        </header>
+        <div>
+            <aside>
+                <ul class="ul2">
+                    <li><a href="/html/symentric-elements/lokmat.html">LOKMAT</a></li>
+                    <li><a href="/html/symentric-elements/samna.html">SAMNA</a></li>
+                    <li><a href="/html/symentric-elements/sakal.html">SAKAL</a></li>
+                    <li><a href="/html/symentric-elements/loksata.html">LOKSATA</a></li>
+                    <li><a href="/html/symentric-elements/mhtimes.html">MH TIMES</a></li>
+                    <li><a href="/html/symentric-elements/zunjar.html">ZUNJAR NETA</a></li>
+                </ul>
+            </aside>
+            <article>
+                <div class="marrq">
+                    <div class="news">NEWS:</div>
+                    <marquee behavior="" direction="" style="color: gold;padding-top: 28px;">@Lorem ipsum dolor sit amet
+                        consectetur </marquee>
+                </div>
+                <div class="main">
+                    <div class="img">
+                        <img src="240_F_198045217_XX6x4ll5Ov4thdKEpS7Ebn0DEJZHuN8I.jpg" height="300px" />
+                    </div>
+                    <div class="formm">
+                        <br><br><br>
+                        <h1 class="join">ABOUT SAKAL</h1>
+                        <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                            <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                                <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                                    <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                                        <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                                            <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                                                <h1>NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS</h>
+                                                    <br><br>
+                    </div>
+                </div>
+                <div class="vid">
+
+                    <div class="trading">
+                        <div>
+                            <h1 style="margin-left: 550px;font-size: 25px;">TRADING</h1>
+                        </div>
+                        <div class="sid">
+                            <div class="v1">
+                                <div>
+                                    <video height="200px" width="291px" controls>
+                                        <source src="newss.mkv">
+                                    </video>
+                                </div>
+                                <p style="text-align: justify;width: 291px;"><strong style="color: red;">NEWS</strong>
+                                    ipsum.l Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Deserunt voluptatem illo temporibus consequuntur ipsa delectus ab
+                                    dolor itaque dicta nemo voluptate dolore modi eveniet officia qui vel, tempora
+                                    similique reprehenderit!</p>
+                            </div>
+                            <div class="v2">
+                                <div>
+                                    <video height="200px" width="291px" controls>
+                                        <source src="newss.mkv">
+                                    </video>
+
+                                </div>
+                                <p style="text-align: justify;width: 291px;"><strong style="color: red;">NEWS</strong>
+                                    ipsum.l Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Deserunt voluptatem illo temporibus consequuntur ipsa delectus ab
+                                    dolor itaque dicta nemo voluptate dolore modi eveniet officia qui vel, tempora
+                                    similique reprehenderit!</p>
+                            </div>
+                            <div class="v3">
+                                <div><video height="200px" width="291px" controls>
+                                        <source src="newss.mkv">
+                                    </video>
+                                </div>
+                                <p style="text-align: justify;width: 291px;"><strong style="color: red;">NEWS</strong>
+                                    ipsum.l Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Deserunt voluptatem illo temporibus consequuntur ipsa delectus ab
+                                    dolor itaque dicta nemo voluptate dolore modi eveniet officia qui vel, tempora
+                                    similique reprehenderit!</p>
+                            </div>
+                            <div class="v4">
+                                <div>
+                                    <video height="200px" width="291px" controls>
+                                        <source src="newss.mkv">
+                                    </video>
+
+                                </div>
+                                <p style="text-align: justify;width: 291px;"><strong style="color: red;">NEWS</strong>
+                                    ipsum.l Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Deserunt voluptatem illo temporibus consequuntur ipsa delectus ab
+                                    dolor itaque dicta nemo voluptate dolore modi eveniet officia qui vel, tempora
+                                    similique reprehenderit!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="layer3">
+                    <div class="adve">
+                        <div class="img1">
+                            <img src="images.jpeg" height="150px" width="245px">
+                            <p width="210px"><strong>Shopping</strong>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="img2">
+                            <img src="trends.jpeg" height="150px" width="245px">
+                            <p width="100px"><strong>Shopping</strong>Lorem ipsum dolor sit amet.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Maxime adipisci voluptatem
+                                placeat quis explicabo minus molestias aspernatur.</p>
+                        </div>
+                    </div>
+                    <div class="adve-side">
+                        <p><strong>State:</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, vero!
+                            Soluta id perferendis dolore mollitia ad nostrum!</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <p><strong>Technology:</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+                            vero!
+                            Soluta id perferendis dolore mollitia ad nostrum!</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <p><strong>Company:</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+                            vero!
+                            Soluta id perferendis dolore mollitia ad nostrum!</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <p><strong>Politition:</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+                            vero!
+                            Soluta id perferendis dolore mollitia ad nostrum!</p>
+
+                    </div>
+                </div>
+                <div class="layer4">
+                    <div class="layer4-1">
+                        <h1 class="maha-fast">MAHA FAST</h1>
+                        <marquee behavior="" direction="up" style="height: 314px;">
+                            <ul style="padding-left: 18px;">
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                            </ul>
+                        </marquee>
+                    </div>
+                    <div class="layer4-2">
+                        <table>
+                            <tr>
+                                <th>Time</th>
+                                <th>Information</th>
+                            </tr>
+                            <tr>
+                                <td>8:40 PM</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat maiores eos
+                                    !</td>
+                            </tr>
+                            <tr>
+                                <td>8:40 PM</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat maiores eos
+                                    !</td>
+                            </tr>
+                            <tr>
+                                <td>8:40 PM</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat maiores eos
+                                    !</td>
+                            </tr>
+                            <tr>
+                                <td>8:40 PM</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat maiores eos
+                                    !</td>
+                            </tr>
+                            <tr>
+                                <td>8:40 PM</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat maiores eos
+                                    !</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="layer4-3">
+                        <h1 class="super">SUPER FAST</h1>
+                        <marquee behavior="" direction="up" style="height: 314px;">
+                            <ul style="padding-left: 18px;">
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                                <li>Cricket:<label>Lorem, ipsum Lorem ipsum dolor sit amet conse.</label></li>
+                            </ul>
+                        </marquee>
+                    </div>
+                </div>
+                <div style="background-color: white;font-size: 25px;padding-left: 450px;">COTACT US</div>
+                
+                <div class="layer5">
+                    <div class="layer5-1">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15163.954707584024!2d74.58147690000001!3d18.16443555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1692469319466!5m2!1sen!2sin"
+                            width="600" height="450" style="border:2px solid gold; border-radius: 10px;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;" allowfullscreen="" loading="lazy" b
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="layer5-2">
+                        <p> <strong style="font-size: 25px;color: gold;">Email:</strong><a href="mailto:" style="font-size: 20px;">kashidswarup2001@gmail.com</a></p>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <br>
+                        <p><strong style="font-size: 25px;color: gold;">Email:</strong><a href="" style="font-size:20px;">+91-9527914545</a></p>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <br>
+                        <p style="font-size: 20px;"><strong style="font-size: 25px;color: gold;">Email:</strong>AVCHAT ESTATE PATAS ROAD BARAMTI,TRIMURTI ENTERPRICEC</p>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="layer6">
+                    <div class="layer6-1">
+                        <img src="best.jpg" width="530px" height="423px" />
+                    </div>
+                    <div class="layer6-2">
+                        <img src="desk.jpeg" alt="" height="200px" width="200px">
+                        <img src="greenforest-folding-desk-best-laptop-desks-folding.webp" alt="" height="200px" width="200px" style="margin-left: 30px;">
+                        <img src="stands.jpg" alt="" height="200px" width="200px" style="margin-top: 20px;">
+                        <img src="Er.jpg" alt="" height="200px" width="200px" style="margin-left: 30px;margin-top: 20px;">
+                    </div>
+                </div>
+                
+            </article>
+        </div>
+        <footer>
+            <h1 class="footer-1" style="color: darkred;">FOR other information contact us <strong style="color: brown;">7774084545</strong></h1>
+        </footer>
+    </section>
+</body>
+
+</html>
